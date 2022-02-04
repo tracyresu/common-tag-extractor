@@ -1,0 +1,30 @@
+HELP.md
+.gradle
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Java ###
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
